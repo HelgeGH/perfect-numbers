@@ -16,7 +16,7 @@ def prime_sieve(n):
     return ret
 
 def perfect_number(n):
-    """returnerer det minste perfekte tallet under n"""
+    """returnerer det minste perfekte tallet over n"""
     #vi gjør om tallet vi får til nærmeste eksponent for en toerpotens fordi
     #vi ikke trenger så mange vanlige primtall
     exp = n.bit_length()
